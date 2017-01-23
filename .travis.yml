@@ -5,6 +5,6 @@ compliler:
         - clang
         - gcc
 script:
-        - mkdir
+        - mkdir build
         - cd build
         - cmake .. && make
