@@ -1,0 +1,10 @@
+# Enable C++ support
+language : cpp
+#Compliler
+compliler:
+        - clang
+        - gcc
+script:
+        - mkdir
+        - cd build
+        - cmake .. && make
